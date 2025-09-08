@@ -1,0 +1,28 @@
+{
+  "$schema": "https://raw.githubusercontent.com/DanielGavin/ols/master/misc/ols.schema.json",
+  "collections": [
+    {
+      "name": "ext",
+      "path": "ext"
+    }
+  ],
+  "enable_document_symbols": true,
+  "enable_semantic_tokens": true,
+  "enable_hover": true,
+  "enable_rename": true,
+  "enable_snippets": true,
+  "enable_reference": true,
+  "enable_fake_methods": true,
+  "enable_checker_only_saved": true,
+  "enable_format": false,
+  "verbose": true,
+  "checker_args": "-vet-cast -vet-style",
+  "profile": "main",
+  "profiles":
+  [
+    {
+      "name": "main", 
+      "checker_path": ["app"]
+    }
+  ]
+}

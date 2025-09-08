@@ -1,0 +1,10 @@
+{
+  "emeraldwalk.runonsave": {
+    "commands": [
+      {
+        "match": "\\.(odin)$",
+        "cmd": "odin build game -collection:ext=ext -o:none && echo 'Finished compile.'",
+      },
+    ]
+  },
+}
